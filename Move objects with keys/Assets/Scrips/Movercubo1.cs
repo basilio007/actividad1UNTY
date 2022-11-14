@@ -25,6 +25,12 @@ public Rigidbody cubo2;
         {
             cubo1.AddForce(0, 30, 0);
         }
+       /* else if (Input.GetKey(KeyCode.Space))
+        {
+            cubo1.AddForce(166, 59, -26);
+        }
+        */
+
 
 
         //movimientosd del cubo2
@@ -82,5 +88,6 @@ public Rigidbody cubo2;
         {
             esfera2.AddForce(0, 30, 0);
         }
+        
     }
 }
